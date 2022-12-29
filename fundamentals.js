@@ -70,3 +70,13 @@ const isFullAge = ageSarah>=19;
 
 console.log(now-1991 < now - 2018);
 
+// precedence
+
+console.log(25-10-5); //left to right
+
+let z,y;
+z = y = 25-10-5; //right to left -cz x,y is not undefined here.
+
+const avgAge = (ageJonas+ ageSarah) / 2; //grouping is executed first
+console.log(avgAge);
+
