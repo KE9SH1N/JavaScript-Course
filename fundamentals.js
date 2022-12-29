@@ -39,6 +39,34 @@ job = "teacher";
 
 // OPERATORS
 
-const ageJonas = 2037 - 1991;
-console.log(ageJonas);
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018; 
+console.log(ageJonas, ageSarah);
+
+// math operators
+console.log(ageJonas*2, ageJonas/10, 2**3);
+// 2 ** 3 means two to the power of 3 = 2*2*2 = 8
+
+
+// concatanate
+const firstPersonName = "jonas";
+const lastPersonName = "schmedtman";
+console.log(firstPersonName + " " + lastPersonName); //we can do it by using template string
+
+// assignment operators
+let x = 10+5; //15
+x+=10; //25 here x = 15 then added 10
+x*=4; //25*4 = 100
+x++; //101
+x--; //100
+console.log(x);
+
+// comparison operators
+console.log(ageJonas> ageSarah);
+console.log(ageSarah >=19);
+
+const isFullAge = ageSarah>=19;
+
+console.log(now-1991 < now - 2018);
 
