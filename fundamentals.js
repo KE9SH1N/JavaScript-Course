@@ -80,3 +80,19 @@ z = y = 25-10-5; //right to left -cz x,y is not undefined here.
 const avgAge = (ageJonas+ ageSarah) / 2; //grouping is executed first
 console.log(avgAge);
 
+// CODING CHALLENGE#1
+
+const markMass = 78;
+const johnMass = 92;
+const markHeight = 1.69;
+const johnHeight = 1.95;
+
+
+const markBMI = markMass/(markHeight*markHeight);
+const johnBMI = johnMass/(johnHeight*johnHeight);
+
+console.log(markBMI,johnBMI);
+
+const markHeigerBMI = (markBMI>johnBMI);
+
+console.log(markHeigerBMI);
