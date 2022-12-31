@@ -110,3 +110,16 @@ console.log(jonas);
 
 const jonasNew = `I'm ${jFirstName}, a ${years-birthYears} year old ${job}s!`;
 console.log(jonasNew);
+
+// IF ELSE
+
+const ageDrive = 19;
+const isOldEnough = age>=18;
+
+
+if (age>= 18){
+    console.log('old enough');
+}
+else{
+    console.log('not old enough');
+}
