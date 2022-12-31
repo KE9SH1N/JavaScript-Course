@@ -96,3 +96,17 @@ console.log(markBMI,johnBMI);
 const markHeigerBMI = (markBMI>johnBMI);
 
 console.log(markHeigerBMI);
+
+
+// STRINGS AND TEMPLATE LITERALS
+
+const jFirstName = 'jonas';
+const jobs= 'teacher';
+const birthYears = '1991';
+const years = 2037;
+
+const jonas = "I'm " + jFirstName + ', a ' + (years - birthYears) + ' years old ' + jobs + ' !';
+console.log(jonas);
+
+const jonasNew = `I'm ${jFirstName}, a ${years-birthYears} year old ${job}s!`;
+console.log(jonasNew);
