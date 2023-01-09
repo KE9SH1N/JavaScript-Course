@@ -25,3 +25,19 @@ console.log(orangeJuice);
 
 // FUNCTION DECLARATION VS EXPRESSION 
 
+function calcAge1(birthYear){
+    const age = 2037-birthYear;
+    return age;
+}
+
+const age1 = calcAge1(1991);
+console.log(age1);
+
+//EXPRESSION
+
+const calcAge2 = function (birthYear){
+    return 2037 - birthYear;
+}
+const age2 = calcAge2(1992);
+console.log(age1, age2);
+
