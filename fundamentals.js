@@ -132,7 +132,7 @@ if (yourAge === 18) console.log('you just became an adult');
 
 if (yourAge == 18) console.log('your are adult');
 
-const favourite = prompt("what's your favourite number?");
+/*const favourite = prompt("what's your favourite number?");
 
 console.log(favourite);
 
@@ -146,4 +146,10 @@ else if(favourite == 7){
 }
 else{
     console.log("number is not 23 or 7");
-}
+}*/
+
+// CONDITIONAL OPERATOR
+
+const checkAdult = yourAge >= 18 ? "adult" : "not adult";
+
+console.log(checkAdult);
