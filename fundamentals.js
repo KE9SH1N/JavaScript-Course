@@ -123,3 +123,27 @@ if (age>= 18){
 else{
     console.log('not old enough');
 }
+
+// EQUALITY OPERATORS 
+
+const yourAge = "18";
+
+if (yourAge === 18) console.log('you just became an adult');
+
+if (yourAge == 18) console.log('your are adult');
+
+const favourite = prompt("what's your favourite number?");
+
+console.log(favourite);
+
+console.log(typeof favourite);
+
+if (favourite === 23){ //23 string == 23 number
+    console.log("cool!");
+}
+else if(favourite == 7){
+    console.log("another cool number");
+}
+else{
+    console.log("number is not 23 or 7");
+}
