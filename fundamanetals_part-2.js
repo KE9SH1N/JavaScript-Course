@@ -78,3 +78,25 @@ function fruitProcessor(apples, oranges){
 const processor = fruitProcessor(2,3);
 
 console.log(processor);
+
+
+// ARRAY 
+
+const friends = ['michael', 'steven','peter'];
+
+//Add elements
+const newLength = friends.push('jay');
+
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('john');
+console.log(friends);
+
+//Remove elements
+friends.pop();
+console.log(friends);
+
+friends.shift();
+console.log(friends);
+
