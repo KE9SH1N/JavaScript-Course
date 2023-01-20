@@ -100,3 +100,26 @@ console.log(friends);
 friends.shift();
 console.log(friends);
 
+// OBJECT DOT OR BRACKET NOTATION 
+
+const jonasTwo ={
+    firstName: "Jonas",
+    lastName:"schmedtmann",
+    birthYear: 1991,
+    job:"teacher",
+    friends:['michael', 'peter', 'steven'],
+
+    calcAge4: function (){
+        return 2037-this.birthYear;
+    }
+};
+
+
+console.log(jonasTwo);
+
+console.log(jonasTwo.firstName);
+
+
+// OBJECT METHODS
+
+console.log(jonasTwo.calcAge4());
